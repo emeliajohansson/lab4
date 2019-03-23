@@ -148,7 +148,7 @@ class Dishes extends Component {
           >
             <button
               type="button"
-              class="btn btn-warning"
+              className="btn btn-warning"
               id="searchButton"
               onClick={this.submitClick}
             >
