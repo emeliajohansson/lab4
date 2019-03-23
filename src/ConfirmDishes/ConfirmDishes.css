@@ -1,0 +1,16 @@
+#detailView {
+  text-align: center;
+}
+
+.dishImage,
+#dishImage {
+  border: solid;
+  padding: 5px;
+  margin: 20px;
+  background-color: #ffdd99;
+}
+
+#bar {
+  margin-left: auto;
+  margin-right: auto;
+}

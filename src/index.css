@@ -1,0 +1,165 @@
+#myHeader {
+  text-align: center;
+  font-family: "Calibri", cursive, sans-serif;
+  font-weight: bold;
+  font-size: 64px;
+  background-color: #eee;
+}
+
+#loader {
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 1s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#homeView,
+#detailHeader {
+  text-align: center;
+  margin: auto;
+}
+
+.h4 {
+  text-align: left;
+}
+
+.tr,
+.td {
+  padding: 10px;
+  text-align: left;
+}
+
+#detailTable {
+  width: 100%;
+}
+
+#menuTable,
+#navbarButton,
+#dishIngredients {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#menu {
+  margin: auto;
+}
+
+#searchText,
+#searchType,
+#searchBarButton,
+#searchButton {
+  margin: 5px;
+  border-radius: 5px;
+}
+
+#guests {
+  margin: 5px;
+  text-align: center;
+  width: 80px;
+  border-radius: 5px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+
+#dishBoxes {
+  margin: auto;
+}
+
+#col {
+  border: 2px solid black;
+}
+
+#navbar {
+  text-align: center;
+  background-color: #ff9933;
+  padding: 10px;
+  box-shadow: 5px 5px;
+  border: 2px solid black;
+  color: black;
+  width: 200%;
+  margin-bottom: 20px;
+}
+
+.b {
+  padding-left: 10px;
+}
+.p {
+  word-break: normal;
+}
+
+#navbarPrice {
+  padding: 5px;
+  font-size: 1rem;
+}
+
+#button,
+#createDinnerBtn,
+#confirmDinnerButton,
+#printRecipeButton,
+#backEditDinnerButton,
+#searchButton,
+#addToMenuButton {
+  text-align: center;
+  background-color: #ff9933;
+  padding: 10px;
+  box-shadow: 5px 5px;
+  border: 2px solid black;
+}
+
+#dishes {
+  text-align: left;
+}
+
+#text_box {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#dinnerCost,
+#totalMenuPrice,
+#fullMenu {
+  font-size: small;
+}
+
+#confDinner {
+  font-size: small;
+}
+
+.img {
+  width: 144px;
+  height: 144px;
+}
+
+#minusGuest,
+#plusGuest {
+  text-align: center;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.hr {
+  border-bottom: 2px solid black;
+}

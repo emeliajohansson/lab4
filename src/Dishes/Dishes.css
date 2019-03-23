@@ -1,0 +1,13 @@
+.dishImage {
+  display: inline-block;
+  width: auto;
+  border: solid black;
+  padding: 5px;
+  margin: 20px;
+  color: black;
+  background-color: #ffdd99;
+}
+
+.Dishes {
+  flex-wrap: wrap;
+}
